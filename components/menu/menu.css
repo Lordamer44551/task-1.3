@@ -23,7 +23,6 @@
 .menu__icon{
   display: block;
   max-width: 40px;
-  width: 100%;
   height: auto;
 }
 .menu__item{
