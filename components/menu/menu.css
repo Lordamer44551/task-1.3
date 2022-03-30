@@ -42,13 +42,13 @@
   background-color: #EAEAEA;
 }
 @media(min-width: 768px) and (max-width: 1120px){
-  .menu__row:last-child img, .menu__row:last-child .menu__separator{
+  .menu__row:last-child menu__item, .menu__row:last-child .menu__separator{
     margin-right: 16px;
   }
   .menu__row:first-child .menu__separator{
     order: 2;
   }
-  .menu__row:first-child .menu__icon{
+  .menu__row:first-child .menu__item{
     order: 1;
   }
   .menu__logo{
