@@ -1,0 +1,32 @@
+.read-more-button{
+    display: flex;
+    align-items: center;
+    background: none;
+    cursor: pointer;
+}
+.read-more-button__switcher{
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+    color:#03ffff;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 7px;
+    padding-bottom: 5px;
+}
+.read-more-button__symbol{
+    font-size: 20px;
+    color: #03ffff;
+    line-height: 7px;
+    transform: rotate(180deg);
+}
+.read-more-button__text{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    color: #1B1C21;
+}
+@media(min-width: 768px) and (max-width: 1120px){
+    
+}
