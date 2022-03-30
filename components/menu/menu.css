@@ -25,6 +25,7 @@
   height: 40px;
 }
 .menu__item{
+  display: block;
   cursor: pointer; 
 }
 .menu__logo{
