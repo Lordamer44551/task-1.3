@@ -25,8 +25,7 @@
   height: 40px;
 }
 .menu__item{
-  display: block;
-  cursor: pointer; 
+  background: none;
 }
 .menu__logo{
   width: 96.55px;
