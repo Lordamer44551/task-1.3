@@ -17,43 +17,47 @@
         <div class="page">
             <header class="page__header header">
                 <nav class="header__menu menu">
-                    <div class="menu__row">
-                        <img src="components/menu/menu__icon/burger.svg" alt="Меню-бургер" class="menu__icon">
-                        <div class="menu__logo"></div>
-                        <div class="menu__separator"></div>
-                    </div>
-                    <div class="menu__row">
-                        <img src="components/menu/menu__icon/call.svg" alt="Call" class="menu__icon menu__icon--hidden">
-                        <img src="components/menu/menu__icon/chat.svg" alt="Chat" class="menu__icon menu__icon--hidden">
-                        <img src="components/menu/menu__icon/profile.svg" alt="Profile-button" class="menu__icon menu__icon--hidden">
-                        <div class="menu__separator menu__separator--hidden"></div>
-                        <img src="components/menu/menu__icon/repair.svg" alt="Заявка" class="menu__icon">
-                        <img src="components/menu/menu__icon/checkstatus.svg" alt="Статус ремонта" class="menu__icon">
-                    </div>
-                </nav>
-                <div class="header__row">
-                    <h1 class="header__title">Услуги и сервисы</h1>
-                    <div class="header__items">
-                        <button class="header__item">
-                            <span class="header__subtitle header__subtitle--disabled">Оставить заявку</span>
+                    <div class="menu__container">
+                        <div class="menu__row">
+                            <img src="components/menu/menu__icon/burger.svg" alt="Меню-бургер" class="menu__icon">
+                            <div class="menu__logo"></div>
+                            <div class="menu__separator"></div>
+                        </div>
+                        <div class="menu__row">
+                            <img src="components/menu/menu__icon/call.svg" alt="Call" class="menu__icon menu__icon--hidden">
+                            <img src="components/menu/menu__icon/chat.svg" alt="Chat" class="menu__icon menu__icon--hidden">
+                            <img src="components/menu/menu__icon/profile.svg" alt="Profile-button" class="menu__icon menu__icon--hidden">
+                            <div class="menu__separator menu__separator--hidden"></div>
                             <img src="components/menu/menu__icon/repair.svg" alt="Заявка" class="menu__icon">
-                        </button>
-                        <button class="header__item">
-                            <span class="header__subtitle header__subtitle--disabled">Статус ремонта</span>
                             <img src="components/menu/menu__icon/checkstatus.svg" alt="Статус ремонта" class="menu__icon">
-                        </button>
+                        </div>
                     </div>
-                </div>
-                <nav class="header__categories categories">
-                    <ul class="categories__list">
-                        <li class="categories__item"><button class="categories__button">Ремонтируемые бренды</button></li>
-                        <li class="categories__item"><button class="categories__button">Ремонтируемые устройства</button></li>
-                        <li class="categories__item"><button class="categories__button">Цены на услуги</button></li>
-                        <li class="categories__item"><button class="categories__button">Адреса сервисных центров</button></li>
-                        <li class="categories__item"><button class="categories__button">Специальные цены</button></li>
-                        <li class="categories__item"><button class="categories__button">Отзывы</button></li>
-                    </ul>
                 </nav>
+                <div class="header__container">
+                    <div class="header__row">
+                        <h1 class="header__title">Услуги и сервисы</h1>
+                        <div class="header__items">
+                            <button class="header__item">
+                                <span class="header__subtitle header__subtitle--disabled">Оставить заявку</span>
+                                <img src="components/menu/menu__icon/repair.svg" alt="Заявка" class="menu__icon">
+                            </button>
+                            <button class="header__item">
+                                <span class="header__subtitle header__subtitle--disabled">Статус ремонта</span>
+                                <img src="components/menu/menu__icon/checkstatus.svg" alt="Статус ремонта" class="menu__icon">
+                            </button>
+                        </div>
+                    </div>
+                    <nav class="header__categories categories">
+                        <ul class="categories__list">
+                            <li class="categories__item"><button class="categories__button">Ремонтируемые бренды</button></li>
+                            <li class="categories__item"><button class="categories__button">Ремонтируемые устройства</button></li>
+                            <li class="categories__item"><button class="categories__button">Цены на услуги</button></li>
+                            <li class="categories__item"><button class="categories__button">Адреса сервисных центров</button></li>
+                            <li class="categories__item"><button class="categories__button">Специальные цены</button></li>
+                            <li class="categories__item"><button class="categories__button">Отзывы</button></li>
+                        </ul>
+                    </nav>
+                </div>
             </header>
             <main class="page__main main">
                 <section class="main__content content">
@@ -80,6 +84,6 @@
             </main>
         </div>
 
-        <script src="components/categories/__button.js"></script>
+        <script src="components/categories/categories__button.js"></script>
     </body>
 </html>

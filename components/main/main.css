@@ -10,13 +10,16 @@
 }
 @media(max-width: 768px){
     .main__content{
-        margin: 24px 16px 16px 16px;
+        padding: 24px 16px 16px 16px;
+    }
+    .main__image{
+        margin-bottom: 42px;
     }
 }
 @media(min-width: 768px) and (max-width: 1120px){
     .main__content{
         flex-basis: 50%;
-        margin: 0px;
+        padding: 0px;
         margin-right: 48px;
     }
     .main{
@@ -34,7 +37,7 @@
     }
     .main__content{
         flex-basis: 50%;
-        margin: 0px;
+        padding: 0px;
         margin-right: 48px;
     }
     .main__image{

@@ -1,7 +1,9 @@
 .menu{
+    background-color: #FFFFFF;
+}
+.menu__container{
     display: flex;
     padding: 24px 16px;
-    background-color: #FFFFFF;
     align-items: center;
     justify-content: space-between;
     height: 88px;
