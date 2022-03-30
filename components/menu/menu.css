@@ -21,11 +21,15 @@
   justify-content: space-evenly;
 }
 .menu__icon{
-  width: 40px;
-  height: 40px;
+  display: block;
 }
 .menu__item{
   background: none;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .menu__logo{
   width: 96.55px;
