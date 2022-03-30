@@ -23,7 +23,9 @@
 .menu__icon{
   width: 40px;
   height: 40px;
-  cursor: pointer;
+}
+.menu__item{
+  cursor: pointer; 
 }
 .menu__logo{
   width: 96.55px;
