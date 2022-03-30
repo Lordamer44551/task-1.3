@@ -52,7 +52,7 @@
   }
 }
 @media(max-width: 768px){
-  .menu__icon--hidden{
+  .menu__item--hidden{
     display: none;
   }
   .menu__separator--hidden{
