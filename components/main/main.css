@@ -3,6 +3,7 @@
 }
 .main__container{
   max-width: 1500px;
+  margin: 0px auto;
 }
 .main__image{
   min-width: 320px;
