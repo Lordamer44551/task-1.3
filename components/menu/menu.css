@@ -7,6 +7,7 @@
   align-items: center;
   justify-content: space-between;
   height: 88px;
+  max-width: 1500px;
 }
 .menu__row{
   display: flex;

@@ -1,10 +1,10 @@
 .header{
-  display: flex;
-  flex-direction: column;
   background-color: #F8F8F8;
 }
 .header__container{
-  padding: 16px 16px 24px 16px;
+  padding: 24px 16px 0px 16px;
+  max-width: 1500px;
+  margin: 0px auto;
 }
 .header__item{
   background: none;
