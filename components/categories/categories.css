@@ -7,6 +7,7 @@
   flex-wrap: nowrap;
   overflow-x: scroll;
 }
+
 .categories__item{
    margin-right: 19px;
    flex-grow: 1;
@@ -30,6 +31,20 @@
 .categories__item:last-child{
   margin-right: 0px;
 }
+
+@media(max-width: 1120px){
+/* Скрываем скроллбар на мобильной версии */
+
+/* FireFox */
+.categories__list { -moz-scrollbar-width: none;}
+
+/* хром, сафари */
+.categories__list::-webkit-scrollbar { width: 0; }
+
+/* ie 10+ */
+.categories__list { -ms-overflow-style: none; }
+}
+
 @media(min-width: 1120px){
   .categories__list{
     overflow-x: visible;
