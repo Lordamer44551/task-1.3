@@ -1,10 +1,6 @@
 .main{
   background-color: #F8F8F8;
 }
-.main__container{
-  max-width: 1500px;
-  margin: 0px auto;
-}
 .main__image{
   min-width: 320px;
   min-height: 176px;
