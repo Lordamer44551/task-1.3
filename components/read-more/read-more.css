@@ -4,20 +4,24 @@
   background: none;
   cursor: pointer;
 }
+
 .read-more__switcher{
   margin-right: 16px;
-  display: flex;
   flex-direction: column;
   color:#03ffff;
   font-weight: bold;
   font-size: 20px;
   line-height: 7px;
-  padding-bottom: 5px;
 }
-.read-more__text{
+
+.read-more__text {
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
   color: #1B1C21;
+}
+
+.read-more__image {
+  display: inline-block;
 }
