@@ -1,10 +1,10 @@
-.read-more-button{
+.read-more{
   display: flex;
   align-items: center;
   background: none;
   cursor: pointer;
 }
-.read-more-button__switcher{
+.read-more__switcher{
   margin-right: 16px;
   display: flex;
   flex-direction: column;
@@ -14,13 +14,7 @@
   line-height: 7px;
   padding-bottom: 5px;
 }
-.read-more-button__symbol{
-  font-size: 20px;
-  color: #03ffff;
-  line-height: 7px;
-  transform: rotate(180deg);
-}
-.read-more-button__text{
+.read-more__text{
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="components/header/header.css">
     <link rel="stylesheet" href="components/categories/categories.css">
     <link rel="stylesheet" href="components/content/content.css">
-    <link rel="stylesheet" href="components/read-more-button/read-more-button.css">
+    <link rel="stylesheet" href="components/read-more/read-more.css">
   </head>
   <body>
     <div class="page">
@@ -19,17 +19,17 @@
         <nav class="header__menu menu">
           <div class="menu__container">
             <div class="menu__row">
-              <button class="menu__item"><img src="components/menu/menu__icon/burger.svg" alt="Меню-бургер" class="menu__icon"></button>
+              <button class="menu__item" type="button" title="burger-menu" tabindex="1"><img src="components/menu/menu__icon/burger.svg" alt="burger-menu" class="menu__icon"></button>
                 <div class="menu__logo"></div>
                 <div class="menu__separator"></div>
             </div>
             <div class="menu__row">
-              <button class="menu__item menu__item--hidden"><img src="components/menu/menu__icon/call.svg" alt="Call" class="menu__icon"></button>
-              <button class="menu__item menu__item--hidden"><img src="components/menu/menu__icon/chat.svg" alt="Chat" class="menu__icon"></button>
-              <button class="menu__item menu__item--hidden"><img src="components/menu/menu__icon/profile.svg" alt="Profile-button" class="menu__icon"></button>
+              <button class="menu__item menu__item--hidden" type="button" title="call-button" tabindex="2"><img src="components/menu/menu__icon/call.svg" alt="Call" class="menu__icon"></button>
+              <button class="menu__item menu__item--hidden" type="button" title="chat-button" tabindex="3"><img src="components/menu/menu__icon/chat.svg" alt="Chat" class="menu__icon"></button>
+              <button class="menu__item menu__item--hidden" type="button" title="profile-button" tabindex="4"><img src="components/menu/menu__icon/profile.svg" alt="profile-button" class="menu__icon"></button>
               <div class="menu__separator menu__separator--hidden"></div>
-              <button class="menu__item"><img src="components/menu/menu__icon/repair.svg" alt="Заявка" class="menu__icon"></button>
-              <button class="menu__item"><img src="components/menu/menu__icon/checkstatus.svg" alt="Статус ремонта" class="menu__icon"></button>
+              <button class="menu__item" tabindex="5"><img src="components/menu/menu__icon/repair.svg" alt="Заявка" class="menu__icon"></button>
+              <button class="menu__item" tabindex="6"><img src="components/menu/menu__icon/checkstatus.svg" alt="Статус ремонта" class="menu__icon"></button>
             </div>
           </div>
         </nav>
@@ -37,11 +37,11 @@
           <div class="header__row">
             <h1 class="header__title">Услуги и сервисы</h1>
             <div class="header__items">
-              <button class="header__item">
+              <button class="header__item" tabindex="7">
                 <span class="header__subtitle header__subtitle--disabled">Оставить заявку</span>
                 <img src="components/menu/menu__icon/repair.svg" alt="Заявка" class="menu__icon">
               </button>
-              <button class="header__item">
+              <button class="header__item" tabindex="8">
                 <span class="header__subtitle header__subtitle--disabled">Статус ремонта</span>
                 <img src="components/menu/menu__icon/checkstatus.svg" alt="Статус ремонта" class="menu__icon">
               </button>
@@ -49,12 +49,12 @@
           </div>
           <nav class="header__categories categories">
             <ul class="categories__list">
-              <li class="categories__item"><button class="categories__button">Ремонтируемые бренды</button></li>
-              <li class="categories__item"><button class="categories__button">Ремонтируемые устройства</button></li>
-              <li class="categories__item"><button class="categories__button">Цены на услуги</button></li>
-              <li class="categories__item"><button class="categories__button">Адреса сервисных центров</button></li>
-              <li class="categories__item"><button class="categories__button">Специальные цены</button></li>
-              <li class="categories__item"><button class="categories__button">Отзывы</button></li>
+              <li class="categories__item"><a href="#" class="categories__link" tabindex="9">Ремонтируемые бренды</a></li>
+              <li class="categories__item"><a href="#" class="categories__link" tabindex="10">Ремонтируемые устройства</a></li>
+              <li class="categories__item"><a href="#" class="categories__link" tabindex="11">Цены на услуги</a></li>
+              <li class="categories__item"><a href="#" class="categories__link" tabindex="12">Адреса сервисных центров</a></li>
+              <li class="categories__item"><a href="#" class="categories__link" tabindex="13">Специальные цены</a></li>
+              <li class="categories__item"><a href="#" class="categories__link" tabindex="14">Отзывы</a></li>
             </ul>
           </nav>
         </div>
@@ -73,19 +73,17 @@
                 Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.
               </span>
             </p>
-            <div class="content__read-more-button read-more-button">
-              <div class="read-more-button__switcher">
-                <div class="read-more-button__symbol">^</div>
-                <div class="read-more-button__symbol">^</div>
+            <div class="content__read-more read-more">
+              <div class="read-more__switcher">
+                <img class="read-more__image" src="components\read-more\read-more__image\icon.png" alt="^">
+                <img class="read-more__image" src="components\read-more\read-more__image\icon.svg" alt="^">
               </div>
-              <span class="read-more-button__text">Читать далее</span>
+              <span class="read-more__text">Читать далее</span>
             </div>
           </section>
           <img src="components/main/main__image/MG_3223.jpg" alt="Компания" class="main__image">
         </div>
       </main>
     </div>
-
-    <script src="components/categories/categories__button.js"></script>
   </body>
 </html>

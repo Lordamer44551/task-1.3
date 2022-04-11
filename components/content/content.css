@@ -5,7 +5,7 @@
   line-height: 18px;
   color: #1B1C21;
 }
-.content__read-more-button{
+.content__read-more{
   margin-left: 8px;
   margin-bottom: 16px;
 }
@@ -43,7 +43,7 @@
   .content__text{
     line-height: 20px;
   }
-  .content__read-more-button{
+  .content__read-more{
     margin-left: 8px;
     margin-top: 10px;
   }
